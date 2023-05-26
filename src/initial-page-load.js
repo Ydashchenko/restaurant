@@ -17,8 +17,7 @@ export function initialPageLoad() {
         <p>Ramen Ichiraku is Naruto Uzumaki's favourite dining establishment. He eats there regularly – usually stopping by between missions – and he is often joined by Iruka Umino, another frequent customer. Because Naruto has been a loyal customer for most of his life, Teuchi and his daughter, Ayame, were among the few people in Konoha not to treat Naruto with animosity during his youth. Naruto takes Hinata Hyūga to Ramen Ichiraku for their first date; in the anime, this in turn causes Hinata to become a regular customer, to the point that she has won at least one of its eating contests. In Konoha Hiden, Teuchi gives Naruto a lifetime pass for Ramen Ichiraku as a wedding present, which the anime shows to have received heavy use over the following years.</p>`
     footer.innerHTML = `Copyright ©
         <script>document.write(new Date().getFullYear())</script>
-        <a href="https://github.com/Ydashchenko" target="_blank">Yevhenii Dashchenko</a>
-        <a href="https://github.com/Ydashchenko" target="_blank"><img src="github-mark.svg" alt="github-icon" class="icon"></a>`
+        <a href="https://github.com/Ydashchenko" target="_blank">Yevhenii Dashchenko</a>`
     
     home.class = 'tab active'
     menu.class = 'tab'
