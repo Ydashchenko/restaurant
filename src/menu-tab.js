@@ -1,5 +1,7 @@
 export function menuTab() {
     const main = document.querySelector('main')
+    
+
     main.innerHTML = `
         <div class='dish' id='ramen'>
             <h3>Ramen</h3>
@@ -33,4 +35,8 @@ export function menuTab() {
         </div>
     `
     main.id = 'menu-tab'
+    home.classList.remove('active')
+    menu.classList.add('active')
+    contact.classList.remove('active')
+    
 }

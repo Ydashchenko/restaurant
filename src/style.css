@@ -61,6 +61,20 @@ nav {
     padding: 40px;
 }
 
+#contact-tab {
+    flex: 1;
+    width: max(50%, 300px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 50px;
+    gap: 50px;
+    padding: 40px;
+}
+
 .dish img {
     width: 200px;
     height: 200px;

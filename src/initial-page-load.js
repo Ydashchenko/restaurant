@@ -19,10 +19,9 @@ export function initialPageLoad() {
         <script>document.write(new Date().getFullYear())</script>
         <a href="https://github.com/Ydashchenko" target="_blank">Yevhenii Dashchenko</a>`
     
-    home.classList.add('tab')
     home.classList.add('active')
-    menu.classList.add('tab')
-    contact.classList.add('tab')
+    menu.classList.remove('active')
+    contact.classList.remove('active')
 
     main.id = 'home-tab'
 
