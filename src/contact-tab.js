@@ -11,4 +11,7 @@ export function contactTab() {
     `
 
     main.id = 'contact-tab'
+    home.classList.remove('active')
+    menu.classList.remove('active')
+    contact.classList.add('active')
 }
