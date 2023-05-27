@@ -9,9 +9,9 @@ export function initialPageLoad() {
     const footer = document.createElement('footer')
 
     header.innerHTML = 'Ichiraku'
-    home.innerHTML = 'Home'
-    menu.innerHTML = 'Menu'
-    contact.innerHTML = 'Contact'
+    home.innerHTML = '<h4>Home</h4>'
+    menu.innerHTML = '<h4>Menu</h4>'
+    contact.innerHTML = '<h4>Contact</h4>'
     footer.innerHTML = `Copyright ©
         <script>document.write(new Date().getFullYear())</script>
         <a href="https://github.com/Ydashchenko" target="_blank">Yevhenii Dashchenko</a>`
