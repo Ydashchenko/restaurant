@@ -33,4 +33,5 @@ export function initialPageLoad() {
     content.appendChild(main)
     content.appendChild(footer)
 
+    console.log(home.classList.contains('active'))
 }
